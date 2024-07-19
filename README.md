@@ -22,7 +22,18 @@ O objetivo principal deste projeto foi treinar as habilidades de desenvolvimento
 O vídeo abaixo mostra a aplicação completa.
 
 # IFLog
-https://drive.google.com/file/d/1SfpJvA4KToruiMd8imIrGdac5lfanDLF/view?usp=sharing
+<!DOCTYPE html>
+<html>
+<body>
+  
+  <iframe src="https://drive.google.com/file/d/1SfpJvA4KToruiMd8imIrGdac5lfanDLF/view?usp=drive_link" ></iframe>
+  
+  <!--aloow full screen add tag -->
+  
+<iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1SfpJvA4KToruiMd8imIrGdac5lfanDLF/view?usp=drive_link" ></iframe>
+
+</body>
+</html>
 
 # Autor
 
