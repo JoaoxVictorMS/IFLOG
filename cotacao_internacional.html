@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IFLog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="img/iconeGuia.png">
+
+</head>
+
+<body>
+    <!-- NavBar principal -->
+    <nav class="navbar navbar-principal nav-underline navbar-expand-lg navbar-gradient text-white" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Logo -->
+            <a class="navbar-brand" href=index.html#">
+                <img src="img/logoTeste.png" width="250" height="60" />
+            </a>
+            <!-- Parte da direita da NavBar -->
+            <form class="d-flex align-items-center">
+                <!-- Pesquisa -->
+                <input class="form-control me-2 search-bar" type="search" placeholder="Pesquisar"
+                    aria-label="Pesquisar">
+                <button class="btn btn-outline-success lupa" type="submit"><i class="bi bi-search"></i></button>
+
+                <!-- Ícone do Facebook -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-facebook icon-margin social-icons" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+
+                <!-- Ícone do LinkedIn -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-linkedin icon-margin social-icons" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.324 0 .722 0h14.556c.398 0 .722.513.722 1.146v13.708c0 .633-.324 1.146-.722 1.146H.722A.723.723 0 0 1 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.231c-.837 0-1.357-.554-1.357-1.244 0-.702.533-1.245 1.387-1.245.854 0 1.357.543 1.357 1.245 0 .69-.503 1.244-1.357 1.244H3.743zm4.748 8.231V9.359c0-.213.015-.427.078-.583.172-.427.563-.87 1.221-.87.862 0 1.207.657 1.207 1.618v3.87h2.401V9.317c0-2.252-1.207-3.304-2.816-3.304-1.28 0-1.849.695-2.164 1.184h.031V6.169H6.134c.031.702 0 7.225 0 7.225h2.387z" />
+                </svg>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Segunda Navbar -->
+    <nav class="navbar2 navbar navbar-expand-lg navbar-light navbar2-gradient">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSecond"
+                aria-controls="navbarSecond" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSecond">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre a IFLog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos e Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="unidades.html">Unidades e Franquias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tecnologia.html">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sustentabilidade.html">Sustentabilidade</a></li>
+                    <li class="nav-item"><a class="nav-link" href="lgpd.html">LGPD</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cotacao.html">Cotação de Valores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="atendimento.html">Atendimento</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Conteúdo Principal -->
+        <div class="container custom-container">
+            <div class="row">
+                <!-- Row Principal -->
+                <div class="row">
+                    <!-- Primeira Row das Quatro -->
+                    <div class="row mt-5">
+                        <div class="col-sm-12" style="padding:0;">
+                            <br>
+                            <div class="row"
+                                style="padding:0 20px; background: linear-gradient(to right, #072A24 30%, white 150%); color: white;">
+                                <div class="col-sm-12">
+                                    <br>
+                                    <h3 class="text-center">Simule valores</h3>
+                                    <div style="margin:0 auto;" class="text-center">
+                                        <a href="cotacao.html" class="btn btn-primary"">Nacional &nbsp;<i class=" fa
+                                            fa-angle-right"></i></a>
+                                        <a href="cotacao_internacional.html"
+                                            class="btn btn-primary"">Internacional  &nbsp;<i class=" fa
+                                            fa-angle-right"></i></a> <a href="cotacao_pickup.html"
+                                            class="btn btn-primary"">Pickup  &nbsp;<i class=" fa
+                                            fa-angle-right"></i></a>
+                                    </div>
+
+                                    <br>
+                                    <h3 class="text-center">Simulação Internacional</h3>
+
+
+                                    <br><br>
+                                    <form id="form_precifica" name="form_precifica" method="post"
+                                        action="/siteInstitucional/simulacaoInternacional.jad;jsessionid=46abc0e1ec9feb5d617be4148cbc"
+                                        class="cotacao" enctype="application/x-www-form-urlencoded">
+                                        <input type="hidden" name="form_precifica" value="form_precifica">
+
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="form_precifica:tipo_internacional">Estou
+                                                        enviando:</label><select id="tipo_internacional"
+                                                        name="tipo_internacional" class="form-control" size="1"
+                                                        onchange="jQuery('#tipoInternacional').val(jQuery('#tipo_internacional option').filter(':selected').val())">
+                                                        <option value="" selected="selected">Selecione</option>
+                                                        <option value="1">Encomendas</option>
+                                                        <option value="2">Documentos</option>
+                                                    </select><input id="tipoInternacional" type="hidden"
+                                                        name="tipoInternacional">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="form_precifica:pais_destino">Destino</label>
+                                                    <div class="dropdown bootstrap-select form-control bs3"><select
+                                                            id="pais_destino" name="pais_destino"
+                                                            class="form-control selectpicker"
+                                                            onchange="jQuery('#idInternPais').val(jQuery('#pais_destino option').filter(':selected').val())"
+                                                            data-show-subtext="true" data-live-search="true"
+                                                            data-dropup-auto="false" tabindex="-98">
+                                                            <option value="" selected="selected">Selecione</option>
+                                                            <option value="1">AF - AFEGANISTAO</option>
+                                                            <option value="2">ZA - AFRICA DO SUL</option>
+                                                            <option value="3">AL - ALBANIA</option>
+                                                            <option value="4">DE - ALEMANHA</option>
+                                                            <option value="5">AD - ANDORRA</option>
+                                                            <option value="6">AO - ANGOLA</option>
+                                                            <option value="7">AI - ANGUILLA</option>
+                                                            <option value="9">AG - ANTIGUA E BARBUDA</option>
+                                                            <option value="11">SA - ARABIA SAUDITA</option>
+                                                            <option value="12">DZ - ARGELIA</option>
+                                                            <option value="13">AR - ARGENTINA</option>
+                                                            <option value="14">AM - ARMENIA</option>
+                                                            <option value="15">AW - ARUBA</option>
+                                                            <option value="16">AU - AUSTRALIA</option>
+                                                            <option value="17">AT - AUSTRIA</option>
+                                                            <option value="18">AZ - AZERBAIJAO</option>
+                                                            <option value="19">BS - BAHAMAS</option>
+                                                            <option value="20">BD - BANGLADESH</option>
+                                                            <option value="21">BB - BARBADOS</option>
+                                                            <option value="22">BH - BAREIN</option>
+                                                            <option value="24">BE - BELGICA</option>
+                                                            <option value="25">BZ - BELIZE</option>
+                                                            <option value="26">BJ - BENIN</option>
+                                                            <option value="27">BM - BERMUDA</option>
+                                                            <option value="28">BO - BOLIVIA</option>
+                                                            <option value="29">BA - BOSNIA E HERZEGOVINA</option>
+                                                            <option value="30">BW - BOTSWANA</option>
+                                                            <option value="244">BR - BRASIL</option>
+                                                            <option value="32">BN - BRUNEI</option>
+                                                            <option value="33">BG - BULGARIA</option>
+                                                            <option value="34">BF - BURKINA FASSO</option>
+                                                            <option value="35">BI - BURUNDI</option>
+                                                            <option value="36">BT - BUTAO</option>
+                                                            <option value="37">CV - CABO VERDE</option>
+                                                            <option value="38">CM - CAMAROES</option>
+                                                            <option value="39">KH - CAMBOJA</option>
+                                                            <option value="40">CA - CANADA</option>
+                                                            <option value="41">QA - CATAR</option>
+                                                            <option value="42">KZ - CAZAQUISTAO</option>
+                                                            <option value="43">TD - CHADE</option>
+                                                            <option value="44">CL - CHILE</option>
+                                                            <option value="45">CN - CHINA</option>
+                                                            <option value="46">CY - CHIPRE</option>
+                                                            <option value="47">SG - CINGAPURA</option>
+                                                            <option value="48">CO - COLOMBIA</option>
+                                                            <option value="49">KM - COMORES</option>
+                                                            <option value="50">CG - CONGO</option>
+                                                            <option value="51">KP - COREIA DO NORTE</option>
+                                                            <option value="52">KR - COREIA DO SUL</option>
+                                                            <option value="53">CI - COSTA DO MARFIM</option>
+                                                            <option value="54">CR - COSTA RICA</option>
+                                                            <option value="55">HR - CROACIA</option>
+                                                            <option value="56">CU - CUBA</option>
+                                                            <option value="57">DK - DINAMARCA</option>
+                                                            <option value="58">DJ - DJIBUTI</option>
+                                                            <option value="59">DM - DOMINICA</option>
+                                                            <option value="60">EG - EGITO</option>
+                                                            <option value="61">SV - EL SALVADOR</option>
+                                                            <option value="62">AE - EMIRADOS ARABES UNIDOS</option>
+                                                            <option value="63">EC - EQUADOR</option>
+                                                            <option value="64">ER - ERITREIA</option>
+                                                            <option value="65">SK - ESLOVAQUIA</option>
+                                                            <option value="66">SI - ESLOVENIA</option>
+                                                            <option value="67">ES - ESPANHA</option>
+                                                            <option value="68">US - ESTADOS UNIDOS DA AMERICA</option>
+                                                            <option value="69">EE - ESTONIA</option>
+                                                            <option value="70">ET - ETIOPIA</option>
+                                                            <option value="71">RU - FEDERACAO RUSSA</option>
+                                                            <option value="72">FJ - FIJI</option>
+                                                            <option value="73">PH - FILIPINAS</option>
+                                                            <option value="74">FI - FINLANDIA</option>
+                                                            <option value="75">FR - FRANCA</option>
+                                                            <option value="77">GA - GABAO</option>
+                                                            <option value="78">GM - GAMBIA</option>
+                                                            <option value="79">GH - GANA</option>
+                                                            <option value="80">GE - GEORGIA</option>
+                                                            <option value="81">GI - GIBRALTAR</option>
+                                                            <option value="83">GD - GRANADA</option>
+                                                            <option value="84">GR - GRECIA</option>
+                                                            <option value="85">GL - GROENLANDIA</option>
+                                                            <option value="86">GP - GUADALUPE</option>
+                                                            <option value="87">GU - GUAM</option>
+                                                            <option value="88">GT - GUATEMALA</option>
+                                                            <option value="106">GG - GUERNSEY</option>
+                                                            <option value="89">GY - GUIANA</option>
+                                                            <option value="90">GF - GUIANA FRANCESA</option>
+                                                            <option value="91">GN - GUINE</option>
+                                                            <option value="93">GW - GUINE BISSAU</option>
+                                                            <option value="94">HT - HAITI</option>
+                                                            <option value="95">NL - HOLANDA</option>
+                                                            <option value="96">HN - HONDURAS</option>
+                                                            <option value="97">HK - HONG KONG</option>
+                                                            <option value="98">HU - HUNGRIA</option>
+                                                            <option value="99">YE - IEMEN</option>
+                                                            <option value="103">KY - ILHAS CAYMAN</option>
+                                                            <option value="105">CK - ILHAS COOK</option>
+                                                            <option value="108">FO - ILHAS FAROE</option>
+                                                            <option value="111">FK - ILHAS MALVINAS</option>
+                                                            <option value="113">MH - ILHAS MARSHALL</option>
+                                                            <option value="116">SB - ILHAS SALOMAO</option>
+                                                            <option value="121">VI - ILHAS VIRGENS</option>
+                                                            <option value="122">VG - ILHAS VIRGENS BRITANICAS</option>
+                                                            <option value="124">IN - INDIA</option>
+                                                            <option value="125">ID - INDONESIA</option>
+                                                            <option value="243">GB - INGLATERRA</option>
+                                                            <option value="126">IR - IRA</option>
+                                                            <option value="127">IQ - IRAQUE</option>
+                                                            <option value="128">IE - IRLANDA</option>
+                                                            <option value="129">IS - ISLANDIA</option>
+                                                            <option value="130">IL - ISRAEL</option>
+                                                            <option value="131">IT - ITALIA</option>
+                                                            <option value="133">JM - JAMAICA</option>
+                                                            <option value="134">JP - JAPAO</option>
+                                                            <option value="107">JE - JERSEY</option>
+                                                            <option value="135">JO - JORDANIA</option>
+                                                            <option value="136">KI - KIRIBATI</option>
+                                                            <option value="137">KW - KUWAIT</option>
+                                                            <option value="138">LA - LAOS</option>
+                                                            <option value="139">LS - LESOTO</option>
+                                                            <option value="140">LV - LETONIA</option>
+                                                            <option value="141">LB - LIBANO</option>
+                                                            <option value="142">LR - LIBERIA</option>
+                                                            <option value="143">LY - LIBIA</option>
+                                                            <option value="144">LI - LIECHTENSTEIN</option>
+                                                            <option value="145">LT - LITUANIA</option>
+                                                            <option value="146">LU - LUXEMBURGO</option>
+                                                            <option value="147">MO - MACAU</option>
+                                                            <option value="148">MK - MACEDONIA</option>
+                                                            <option value="149">MG - MADAGASCAR</option>
+                                                            <option value="150">MY - MALASIA</option>
+                                                            <option value="151">MW - MALAUI</option>
+                                                            <option value="152">MV - MALDIVAS</option>
+                                                            <option value="153">ML - MALI</option>
+                                                            <option value="154">MT - MALTA</option>
+                                                            <option value="155">MA - MARROCOS</option>
+                                                            <option value="156">MQ - MARTINICA</option>
+                                                            <option value="157">MU - MAURICIO</option>
+                                                            <option value="158">MR - MAURITANIA</option>
+                                                            <option value="160">MX - MEXICO</option>
+                                                            <option value="161">MM - MIANMAR</option>
+                                                            <option value="163">MZ - MOCAMBIQUE</option>
+                                                            <option value="164">MD - MOLDAVIA</option>
+                                                            <option value="165">MC - MONACO</option>
+                                                            <option value="166">MN - MONGOLIA</option>
+                                                            <option value="167">MS - MONTSERRAT</option>
+                                                            <option value="168">NA - NAMIBIA</option>
+                                                            <option value="169">NR - NAURU</option>
+                                                            <option value="170">NP - NEPAL</option>
+                                                            <option value="171">NI - NICARAGUA</option>
+                                                            <option value="172">NE - NIGER</option>
+                                                            <option value="173">NG - NIGERIA</option>
+                                                            <option value="174">NU - NIUE</option>
+                                                            <option value="175">NO - NORUEGA</option>
+                                                            <option value="176">NC - NOVA CALEDONIA</option>
+                                                            <option value="177">NZ - NOVA ZELANDIA</option>
+                                                            <option value="178">OM - OMA</option>
+                                                            <option value="180">PA - PANAMA</option>
+                                                            <option value="181">PG - PAPUA NOVA GUINE</option>
+                                                            <option value="182">PK - PAQUISTAO</option>
+                                                            <option value="183">PY - PARAGUAI</option>
+                                                            <option value="184">PE - PERU</option>
+                                                            <option value="186">PL - POLONIA</option>
+                                                            <option value="187">PR - PORTO RICO</option>
+                                                            <option value="188">PT - PORTUGAL</option>
+                                                            <option value="189">KE - QUENIA</option>
+                                                            <option value="190">KG - QUIRGUISTAO</option>
+                                                            <option value="191">CF - REPUBLICA CENTRO-AFRICANA</option>
+                                                            <option value="242">CD - REPUBLICA DEMOCRATICA DO CONGO
+                                                                (ZAIRE)</option>
+                                                            <option value="192">DO - REPUBLICA DOMINICANA</option>
+                                                            <option value="193">CZ - REPUBLICA TCHECA</option>
+                                                            <option value="115">RE - REUNIAO</option>
+                                                            <option value="194">RO - ROMENIA</option>
+                                                            <option value="195">RW - RUANDA</option>
+                                                            <option value="198">WS - SAMOA</option>
+                                                            <option value="197">AS - SAMOA AMERICANA</option>
+                                                            <option value="200">LC - SANTA LUCIA</option>
+                                                            <option value="201">KN - SAO CRISTOVAO E NEVIS</option>
+                                                            <option value="203">ST - SAO TOME E PRINCIPE</option>
+                                                            <option value="204">VC - SAO VICENTE E GRANADINAS</option>
+                                                            <option value="205">SC - SEICHELES</option>
+                                                            <option value="206">SN - SENEGAL</option>
+                                                            <option value="207">SL - SERRA LEOA</option>
+                                                            <option value="132">ME - SERVIA E MONTENEGRO</option>
+                                                            <option value="208">SY - SIRIA</option>
+                                                            <option value="209">SO - SOMALIA</option>
+                                                            <option value="210">LK - SRI LANKA</option>
+                                                            <option value="211">SZ - SUAZILANDIA</option>
+                                                            <option value="212">SD - SUDAO</option>
+                                                            <option value="213">SE - SUECIA</option>
+                                                            <option value="214">CH - SUICA</option>
+                                                            <option value="215">SR - SURINAME</option>
+                                                            <option value="216">TJ - TADJIQUISTAO</option>
+                                                            <option value="217">TH - TAILANDIA</option>
+                                                            <option value="218">TW - TAIWAN</option>
+                                                            <option value="219">TZ - TANZANIA</option>
+                                                            <option value="221">TL - TIMOR LESTE</option>
+                                                            <option value="222">TG - TOGO</option>
+                                                            <option value="223">TO - TONGA</option>
+                                                            <option value="224">TT - TRINIDAD E TOBAGO</option>
+                                                            <option value="225">TN - TUNISIA</option>
+                                                            <option value="226">TM - TURCOMENISTAO</option>
+                                                            <option value="227">TR - TURQUIA</option>
+                                                            <option value="228">TV - TUVALU</option>
+                                                            <option value="229">UA - UCRANIA</option>
+                                                            <option value="230">UG - UGANDA</option>
+                                                            <option value="231">UY - URUGUAI</option>
+                                                            <option value="232">UZ - UZBEQUISTAO</option>
+                                                            <option value="233">VU - VANUATU</option>
+                                                            <option value="235">VE - VENEZUELA</option>
+                                                            <option value="236">VN - VIETNA</option>
+                                                            <option value="237">ZM - ZAMBIA</option>
+                                                            <option value="238">ZW - ZIMBABUE</option>
+                                                        </select><button type="button"
+                                                            class="btn dropdown-toggle btn-default"
+                                                            data-toggle="dropdown" role="combobox"
+                                                            aria-owns="bs-select-1" aria-haspopup="listbox"
+                                                            aria-expanded="false" data-id="pais_destino"
+                                                            title="Selecione">
+                                                            <div class="filter-option">
+                                                                <div class="filter-option-inner">
+                                                                    <div class="filter-option-inner-inner">Selecione
+                                                                    </div>
+                                                                </div>
+                                                            </div><span class="bs-caret"><span
+                                                                    class="caret"></span></span>
+                                                        </button>
+                                                        <div class="dropdown-menu open">
+                                                            <div class="bs-searchbox"><input type="text"
+                                                                    class="form-control" autocomplete="off"
+                                                                    role="combobox" aria-label="Search"
+                                                                    aria-controls="bs-select-1"
+                                                                    aria-autocomplete="list"></div>
+                                                            <div class="inner open" role="listbox" id="bs-select-1"
+                                                                tabindex="-1">
+                                                                <ul class="dropdown-menu inner " role="presentation">
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div><input id="idInternPais" type="hidden" name="idInternPais">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="peso">Peso:</label><input id="peso" name="peso"
+                                                        type="text" value="1"
+                                                        placeholder="Colocar peso em kg. Ex.: 1.5 kg" size="12"
+                                                        onkeypress="return (MascaraMoeda(this, '.', ',', event));"
+                                                        class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                                                        role="textbox" aria-disabled="false" aria-readonly="false">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-3">
+                                                <label for="valor_mercadoria">Valor da Mercadoria (R$):</label><input
+                                                    id="valor_mercadoria" name="valor_mercadoria" type="text" value="0"
+                                                    placeholder="Colocar em reais. Ex.: R$ 100,00." size="12"
+                                                    onkeypress="return(MascaraMoeda(this, '.', ',', event));"
+                                                    class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                                                    role="textbox" aria-disabled="false" aria-readonly="false">
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="valLargura">Larg. (cm)</label><input id="valLargura"
+                                                        name="valLargura" type="text" value="0" placeholder="Larg. (cm)"
+                                                        size="4" onkeypress="return(numeroEnter(event));"
+                                                        class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                                                        role="textbox" aria-disabled="false" aria-readonly="false">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="valAltura">Altura (cm)</label><input id="valAltura"
+                                                        name="valAltura" type="text" value="0" placeholder="Altura (cm)"
+                                                        size="4" onkeypress="return(numeroEnter(event));"
+                                                        class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                                                        role="textbox" aria-disabled="false" aria-readonly="false">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <label for="valComprimento">Comprimento (cm)</label><input
+                                                        id="valComprimento" name="valComprimento" type="text" value="0"
+                                                        placeholder="Comprimento (cm)" size="4"
+                                                        onkeypress="return(numeroEnter(event));"
+                                                        class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control"
+                                                        role="textbox" aria-disabled="false" aria-readonly="false">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div class="form-group">
+                                                    <input type="button" class="btn btn-primary"" onclick="
+                                                        PF('blockTela').show();precificaBotao();"
+                                                        style="border-radius:0px;width:100%;margin-top:10%;"
+                                                        value="Simular">
+                                                </div>
+                                            </div>
+                                            <script id="j_idt241"
+                                                type="text/javascript">precificaBotao = function () { PrimeFaces.ab({ s: "j_idt241", f: "form_precifica", u: "panel_resultado form_informacao:mensagemTmp", onco: function (xhr, status, args) { PF('blockTela').hide();; }, pa: arguments[0] }); }</script>
+                                        </div>
+                                         <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <div id="panel_resultado" class="ui-outputpanel ui-widget"></div>
+                                            </div>
+                                </div>
+
+
+
+                                <br><br>
+
+
+
+
+
+                                <br><br><input type="hidden" name="javax.faces.ViewState"
+                                    id="j_id1:javax.faces.ViewState:2" value="761353363817599365:68814689783901847"
+                                    autocomplete="off">
+                                </form>
+                            </div><!--  col 12-->
+
+                        </div><!-- row -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="bg-primary text-white text-center py-4 footer-gradient"
+        style="width: 100%; height: 180px; margin-top: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="text-align: left;">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logoTeste.png" width="250" height="60" />
+                    </a>
+                </div>
+                <div class="col-md-6" style="text-align: right;">
+                    <p> ©2024 IFlog - Todos os direitos reservados</p>
+                </div>
+            </div>
+            <hr style="border-top: 2px solid white; margin-top: 10px; margin-bottom: 10px;">
+            <div class="row">
+                <div class="col">
+                    <ul class="list-inline" style="color: white;">
+                        <li class="list-inline-item"><a href="sobre.html" style="color: white;">Sobre a IFLog</a></li>
+                        <li class="list-inline-item"><a href="produtos.html" style="color: white;">Produtos e
+                                Serviços</a></li>
+                        <li class="list-inline-item"><a href="unidades.html" style="color: white;">Uniades e
+                                Franquias</a></li>
+                        <li class="list-inline-item"><a href="tecnologia.html" style="color: white;">Tecnologia</a></li>
+                        <li class="list-inline-item"><a href="sustentabilidade.html"
+                                style="color: white;">Sustentabilidade</a></li>
+                        <li class="list-inline-item"><a href="lgpd.html" style="color: white;">LGPD</a></li>
+                        <li class="list-inline-item"><a href="cotacao.html" style="color: white;">Cotação de Valores</a>
+                        </li>
+                        <li class="list-inline-item"><a href="atendimento.html" style="color: white;">Atendimento</a>
+                        </li>
+                        <li class="list-inline-item"><a href="#" style="color: white;">Trabalhe Conosco</a></li>
+                        <li class="list-inline-item"><a href="#" style="color: white;">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>

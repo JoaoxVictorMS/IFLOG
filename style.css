@@ -1,0 +1,211 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.icone1{
+  text-align: center;
+}
+
+.icone2{
+  text-align: center;
+}
+
+.navbar-gradient {
+  background: linear-gradient(to right, #072A24 30%, white 150%);
+}
+
+.footer-gradient{
+  background: linear-gradient(to right, #072A24, white 150%);
+}
+
+.navbar2-gradient{
+  background: linear-gradient(to right, #ffffff 30%, white 150%);
+}
+
+.central-title{
+  color: #EB0007;
+}
+
+.nav-link {
+  color: black;
+}
+
+.search-bar {
+  width: 300px; 
+  margin-right: 100px;
+}
+
+.lupa{
+  margin-right: 15px;
+}
+
+.social-icons {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+  color: #072A24;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar2 {
+  background-color: white;
+}
+
+.navbar2 {
+  color: black !important;
+}
+
+
+.banner {
+  width: 100%;
+  height: 75vh;
+  position: relative;
+}
+
+.tracking-form-container {
+  position: absolute;
+  top: 46%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  max-width: 500%;
+}
+
+.tracking-form-container h2 {
+  margin-bottom: 10px;
+}
+
+.tracking-form-container label,
+.tracking-form-container input,
+.tracking-form-container button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.tracking-form-container input,
+.tracking-form-container button {
+  padding: 10px;
+}
+
+.rastreio{
+  font-size: 22px;
+  line-height: var(--size-line-height-xl);
+  text-shadow: 0.1rem 0.1rem #0006;
+}
+
+
+.div-pesquisar{
+  width: 180%;
+}
+
+.img-row1 {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.img-row2 {
+  width: 100%;
+  height: 350px;
+  max-width: 100%;
+}
+
+.img-truck{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.col-sm-6 img {
+  width: 100%;
+  height: auto;
+}
+
+.col-sm-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.black.titulo {
+  margin-bottom: 20px;
+}
+
+.btn-primary{
+  background-color: green;
+  border-color: green;;
+}
+
+.accordion-button {
+  background: linear-gradient(to right, #ffffff 30%, white 150%);
+  font-weight: bold;
+}
+
+.produto-main-text{
+  text-align: left;
+}
+
+.card-text{
+  text-align: center;
+}
+
+.card-title{
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  .col-sm-6 {
+      text-align: center;
+  }
+
+  .col-sm-6 ul {
+      padding-left: 0;
+  }
+}
+
+
+.carousel-img {
+width: 350px;
+height: 270px;
+object-fit: cover;
+}
+
+.carousel-caption {
+position: absolute;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(16, 16, 16, 0.9);
+color: white;
+text-align: center;
+}
+
+
+.carousel { overflow: hidden; padding-bottom: 4rem; }
+.carousel-caption { top: 100%; }
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+
+.card {
+  width: 16rem;
+}
+
+.carousel-img{
+  height: 56vh;
+}
+
+a, h1, h2, li, p, body{
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 604;
+  font-style: normal;
+}
+
