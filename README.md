@@ -13,8 +13,24 @@ Projeto semestral de conclusão da disciplina Desenvolvimento WEB 1
 
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Esta aplicação é um website para a empresa de logística e transporte IFLOG, uma empresa fictícia.
+
+Ela possui 9 páginas diferentes, que vão da página inicial até a página de atendimento, apresentando diversas imagens, textos e botões personalizados, além é claro dos elementos bootstrap, como accordion e carousel.
+
+O objetivo principal deste projeto foi treinar as habilidades de desenvolvimento FRONT-END que é justamente a proposta da disdiplina.
+
+O vídeo abaixo mostra a aplicação completa.
+
+# IFLog
+https://drive.google.com/file/d/1SfpJvA4KToruiMd8imIrGdac5lfanDLF/view?usp=sharing
+
+# Autor
+
+João Victor Monteiro Santos
+
+https://www.linkedin.com/in/joaovictormont/
+ 
 
 
-https://github.com/user-attachments/assets/19fa8467-e5a4-46b5-bf83-f2c3d94195fb
+
 
