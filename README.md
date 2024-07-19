@@ -9,7 +9,7 @@ Projeto semestral de conclusão da disciplina Desenvolvimento WEB 1
 | :rocket: URL         | https://url-deploy.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://files.fm/u/a4udxknea3#vitrinedev)
+![](https://files.fm/u/a4udxknea3#/view/banner_Iflog.png"#vitrinedev)
 
 ## Detalhes do projeto
 
