@@ -1,36 +1,92 @@
-# IFLOG
+<h1 align="center" style="font-weight: bold;">Titulo do Projeto</h1>
 
-Projeto semestral de conclusão da disciplina Desenvolvimento WEB 1
+<p align="center">
+    <img src="img/GAMEFLIX_M_LOGO.jpg" alt="logo" width="400px">
+</p>
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **IFLOG**
-| :label: Tecnologias | html, css, bootstrap
-| :rocket: URL         | https://iflog-joaovmsdev.netlify.app
+[JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
+[HTML__BADGE]: https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[CSS__BADGE]: https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[JQUERY__BADGE]: https://img.shields.io/badge/jQuery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white
+[BOOTSTRAP__BADGE]: https://img.shields.io/badge/Bootstrap-%237952B3.svg?style=for-the-badge&logo=bootstrap&logoColor=white
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![banner_Iflog ](https://github.com/user-attachments/assets/1a400321-7788-4b85-bb7d-fb49fe20345e)
+<p align="center">
+ <a href="#tech">Tecnologias</a> • 
+ <a href="#started">Iniciando</a> • 
+ <a href="#colab">Colaboradores</a> •
+ <a href="#contribute">Contribua</a>
+</p>
 
-## Detalhes do projeto
+<p align="center">
+     <a href="https://iflog-joaovmsdev.netlify.app/">📱 Visite o projeto!</a>
+</p>
 
-Esta aplicação é um website para a empresa de logística e transporte IFLOG, uma empresa fictícia.
+<p align="center">
+  <b>
+    Esta aplicação é um website para a empresa de logística e transporte IFLOG, uma empresa fictícia.
+    Ela possui 9 páginas diferentes, que vão da página inicial até a página de atendimento, apresentando diversas imagens, textos e botões personalizados, além, é claro, dos elementos Bootstrap, como accordion e carousel.
+    O objetivo principal deste projeto foi treinar as habilidades de desenvolvimento front-end, que é justamente a proposta da disciplina.
+    O vídeo abaixo mostra a aplicação completa.
+  </b> 
+</p>
 
-Ela possui 9 páginas diferentes, que vão da página inicial até a página de atendimento, apresentando diversas imagens, textos e botões personalizados, além é claro dos elementos bootstrap, como accordion e carousel.
+<h2 id="layout">🎨 Preview</h2>
 
-O objetivo principal deste projeto foi treinar as habilidades de desenvolvimento FRONT-END que é justamente a proposta da disdiplina.
+https://github.com/user-attachments/assets/1135bb60-d9ee-471b-be2b-1ecc7467d3ea
 
-O vídeo abaixo mostra a aplicação completa.
+<h2 id="technologies">💻 Tecnologias</h2>
 
-# IFLog
-[![IFLOG](https://img.youtube.com/vi/vaQYqwHGx3Q/0.jpg)](https://www.youtube.com/watch?v=vaQYqwHGx3Q)
+<div>
 
-# Autor
+![javascript][JAVASCRIPT__BADGE]
+![HTML][HTML__BADGE]
+![jQuery][JQUERY__BADGE]
+![CSS][CSS__BADGE]
+![Bootstrap][BOOTSTRAP__BADGE]
 
-João Victor Monteiro Santos
+</div>
 
-https://www.linkedin.com/in/joaovictormont/
- 
+<h2 id="started">🚀 Iniciando</h2>
 
+Basta clonar e abrir o index.html
 
+<h3>Pré-requisitos</h3>
 
+- Navegador
 
+<h3>Clonando</h3>
+
+```bash
+git clone https://github.com/JoaoxVictorMS/IFLOG.git
+```
+
+<h2 id="colab">🤝 Colaboradores</h2>
+
+Um agradecimento especial a todas as pessoas que contribuíram para este projeto.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/98715957?v=4" width="100px;" alt="Foto de perfil da Fernanda Kipper"/><br>
+        <sub>
+          <b>João Victor</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h2 id="contribute">📫 Contribua</h2>
+
+Contribua da forma que desejar
+
+1. git clone https://github.com/JoaoxVictorMS/IFLOG.git
+2. Faça as suas contribuições
+3. Abra um Pull Request explicando um pouco do que foi feito e aguarde!
+
+<h3>Documentações que podem ajudar</h3>
+
+[📝 Como criar um Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
+
+[💾 Padrão de commit](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
