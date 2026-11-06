@@ -1,7 +1,7 @@
 <h1 align="center" style="font-weight: bold;">Titulo do Projeto</h1>
 
 <p align="center">
-    <img src="img/GAMEFLIX_M_LOGO.jpg" alt="logo" width="400px">
+    <img src="img/m_iflog.jpg" alt="logo" width="400px">
 </p>
 
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
