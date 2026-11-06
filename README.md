@@ -33,7 +33,7 @@
 <h2 id="layout">🎨 Preview</h2>
 
 <p align="center">
-    <img src="img/banner.jpg" alt="Imagem de exemplo" width="400px">
+    <img src="img/banner.jpg" alt="Imagem de exemplo" width="800px">
 </p>
 
 <h2 id="technologies">💻 Tecnologias</h2>
