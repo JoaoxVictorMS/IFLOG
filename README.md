@@ -32,7 +32,9 @@
 
 <h2 id="layout">🎨 Preview</h2>
 
-https://github.com/user-attachments/assets/1135bb60-d9ee-471b-be2b-1ecc7467d3ea
+<p align="center">
+    <img src="img/banner.jpg" alt="Imagem de exemplo" width="400px">
+</p>
 
 <h2 id="technologies">💻 Tecnologias</h2>
 
